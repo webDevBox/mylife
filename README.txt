@@ -66,18 +66,7 @@ php /home/ubuntu/mylifeid_project/parse_upload_file.php /home/ubuntu/uploads/sam
 
 Note: Replace sample.xml with your actual file name
 
-c. Time Spent
--------------
-| Task                       | Time       |
-|----------------------------|------------|
-| XML Analysis               | 2 hour     |
-| PHP Parser (dynamic setup) | 10 hours  |
-| Cron setup/testing         | 1 hour   |
-| Documentation              | 5 hour   |
-| AWS Deployment & Testing      | 2 hour   |
-| **Total Time**             | ~20 hours |
-
-d. Suggestions
+c. Suggestions
 •	Use laravel framework instead of core PHP
 •	python converter to make more intelligent
 •	Convert file into JSON and then save it in processed folder so human can read processed files.
