@@ -88,7 +88,7 @@ foreach ($medications as $med) {
 }
 
 // Move file to processed
-$processedDir = 'D:\\Projects\\My life\\mylifeid_project\\uploads\\processed\\';
+$processedDir = '/home/ubuntu/mylifeid_project/uploads/processed/';
 rename($xmlFile, $processedDir . basename($xmlFile));
 echo "Done parsing " . basename($xmlFile) . PHP_EOL;
 ?>
